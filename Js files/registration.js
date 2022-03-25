@@ -119,7 +119,7 @@ logSubmit.addEventListener('click', (e) => {
         if(data.success == true){
             logEmail.value = ''
             logPass.value = ''
-            window.location.href = window.location.origin+'/1mustyz/help-desk/master/Templates/UserDashboard.html'
+            window.location.href = window.location.origin+'/Templates/UserDashboard.html'
             // updateMessage("User created sucessfully")
 
         } 
